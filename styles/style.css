@@ -97,8 +97,10 @@ header .navbar ul li a:hover{
     background-color: var(--yellow);
     color: #111;
 }
-
 #menu{
+    float: right;
+}
+#menu-button{
     float: right;
     top: 2rem;
     right: 2rem;
@@ -152,14 +154,14 @@ header .navbar ul li a:hover{
     header{
         left: -120%;
     }
-    #menu{
+    #menu-button{
         display: block;
     }
     .home{
         display: flex;
         justify-content: center;
         flex-flow: column;
-        padding:0 15rem;
+        padding:2em;
     }
 }
 
