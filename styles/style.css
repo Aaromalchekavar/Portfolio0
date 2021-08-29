@@ -99,9 +99,11 @@ header .navbar ul li a:hover{
 }
 #menu{
     float: right;
+    position:sticky;
 }
 #menu-button{
     float: right;
+    position: fixed;
     top: 2rem;
     right: 2rem;
     background: #333;
@@ -119,6 +121,7 @@ header .navbar ul li a:hover{
     flex-flow: column;
     padding:0 15rem;
     padding-left: 50rem;
+    margin-bottom: 100rem;
 }
 
 .home h3{
@@ -139,6 +142,13 @@ header .navbar ul li a:hover{
     font-size:2rem;
     color:#eee;
     padding: 1rem 0;
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 /* media Queries */
